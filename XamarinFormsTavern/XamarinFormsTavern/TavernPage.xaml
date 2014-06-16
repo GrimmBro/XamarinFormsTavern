@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"            
+					   x:Class="XamarinFormsTavern.TavernPage">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <Color x:FactoryMethod="FromHex" x:Key="AlmostGold">
+        <x:Arguments>
+          <x:String>#FFD700</x:String>
+        </x:Arguments>
+      </Color>
+      <Color x:FactoryMethod="FromHex" x:Key="OldPaper">
+        <x:Arguments>
+          <x:String>#F8ECC2</x:String>
+        </x:Arguments>
+      </Color>     
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <Grid x:Name="LayoutRoot" BackgroundColor="Maroon">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+
+
+    <!-- Row 0 -->
+    <Label x:Name="LabelTitle" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
+           Text="Tavern" TextColor="Olive" Font="25" XAlign="Center"></Label>
+
+    <BoxView Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="8" BackgroundColor="{StaticResource OldPaper}"></BoxView>
+
+    <BoxView Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"></BoxView>
+    <Label x:Name="LabelBalance" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" YAlign="Center"
+           Text="100" TextColor="White" Font="25" XAlign="Center"></Label>
+
+    <!-- Row 1 -->
+    <Button x:Name="Button1Gold" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"
+           Text="1 gold" TextColor="{StaticResource AlmostGold}" BorderColor="{StaticResource AlmostGold}" Clicked="On1Gold_Clicked"></Button>
+
+    <!-- Row 2 -->
+    <Image Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="1" x:Name="Dice1"></Image>
+    <Button x:Name="Button2Gold" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"
+           Text="2 gold" TextColor="{StaticResource AlmostGold}" BorderColor="{StaticResource AlmostGold}" Clicked="On2Gold_Clicked"></Button>
+
+    <!-- Row 3 -->
+    <Button x:Name="Button3Gold" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"
+           Text="3 gold" TextColor="{StaticResource AlmostGold}" BorderColor="{StaticResource AlmostGold}" Clicked="On3Gold_Clicked"></Button>
+
+    <!-- Row 4 -->
+    <Image Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="1" Grid.RowSpan="1" x:Name="Dice2"></Image>
+    <Image Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" x:Name="Dice3"></Image>
+    <Button x:Name="Button4Gold" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"
+           Text="4 gold" TextColor="{StaticResource AlmostGold}" BorderColor="{StaticResource AlmostGold}" Clicked="On4Gold_Clicked"></Button>
+
+    <!-- Row 5 -->
+    <Button x:Name="Button5Gold" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"
+           Text="5 gold" TextColor="{StaticResource AlmostGold}" BorderColor="{StaticResource AlmostGold}" Clicked="On5Gold_Clicked"></Button>
+
+    <!-- Row 6 -->
+    <Label x:Name="LabelResult" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3" XAlign="Center" YAlign="Center" Text="Place A Bet"
+           TextColor="Olive" Font="25"></Label>
+
+    <!-- Row 7 -->
+    
+
+  </Grid>
+  
+</ContentPage>
