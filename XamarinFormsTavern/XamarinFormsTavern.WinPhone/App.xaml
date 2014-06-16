@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Application
     x:Class="XamarinFormsTavern.WinPhone.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -18,3 +19,25 @@
     </Application.ApplicationLifetimeObjects>
 
 </Application>
+=======
+﻿<Application
+    x:Class="XamarinFormsTavern.WinPhone.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <local:LocalizedStrings xmlns:local="clr-namespace:XamarinFormsTavern.WinPhone" x:Key="LocalizedStrings"/>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService
+            Launching="Application_Launching" Closing="Application_Closing"
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>
+>>>>>>> 8b2a16313c570a696ccd3b0c72209f96b7fb03cd

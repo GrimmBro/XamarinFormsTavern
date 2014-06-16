@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
@@ -16,4 +17,24 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <CurrentDeployCmdId>256</CurrentDeployCmdId>
+    <CurrentDeployID>4E136B04-AB61-4D76-B040-894831FCA286</CurrentDeployID>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C089C8C0-30E0-4E22-80C0-CE093F111A43}">
+        <SilverlightMobileCSProjectFlavor>
+          <FullDeploy>False</FullDeploy>
+          <DebuggerType>Managed</DebuggerType>
+          <DebuggerAgentType>Managed</DebuggerAgentType>
+          <Tombstone>False</Tombstone>
+        </SilverlightMobileCSProjectFlavor>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+>>>>>>> 8b2a16313c570a696ccd3b0c72209f96b7fb03cd
 </Project>
