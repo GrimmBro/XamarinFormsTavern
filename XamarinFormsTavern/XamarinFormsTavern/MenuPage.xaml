@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XamarinFormsTavern.MenuPage">
+	
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <Color x:FactoryMethod="FromHex" x:Key="AlmostGold">
+        <x:Arguments><x:String>#FFD700</x:String></x:Arguments>
+      </Color>
+      <Color x:FactoryMethod="FromHex" x:Key="OldPaper">
+        <x:Arguments><x:String>#F8ECC2</x:String></x:Arguments>
+      </Color>   
+    </ResourceDictionary>
+  </ContentPage.Resources>
+    
+  <Grid x:Name="LayoutRoot" BackgroundColor="Maroon">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+  
+    
+    <!-- Row 0 -->   
+    <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="8" Source="falconhoof.png"></Image>
+    <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
+           Text="Greetings Traveller!" TextColor="Black" Font="30" XAlign="Center" YAlign="Center"></Label>
+    
+    <BoxView Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="8" BackgroundColor="{StaticResource OldPaper}"></BoxView>
+    
+    <Label Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" YAlign="Center"
+           Text="Visit" TextColor="Black" Font="25" XAlign="Center"></Label>
+
+    
+    <!-- Row 1 
+    <Button Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"
+           Text="Merchant" TextColor="{StaticResource AlmostGold}" BorderColor="{StaticResource AlmostGold}"></Button>
+   -->
+    <!-- Row 2 -->
+    <Button Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"
+           Text="Tavern" TextColor="{StaticResource AlmostGold}" BorderColor="{StaticResource AlmostGold}" Clicked="OnTavern_Clicked"></Button>
+    
+    <!-- Row 3 
+    <Button Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"
+           Text="Healer" TextColor="{StaticResource AlmostGold}" BorderColor="{StaticResource AlmostGold}"></Button>
+    -->
+    <!-- Row 4 
+    <Button Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="2" BackgroundColor="Olive"
+           Text="High Temple" TextColor="{StaticResource AlmostGold}" BorderColor="{StaticResource AlmostGold}"></Button>
+    -->
+    <!-- Row 5 -->
+    
+    
+    <!-- Row 6 -->
+    
+    
+    <!-- Row 7 -->
+    
+  
+   </Grid>
+
+</ContentPage>

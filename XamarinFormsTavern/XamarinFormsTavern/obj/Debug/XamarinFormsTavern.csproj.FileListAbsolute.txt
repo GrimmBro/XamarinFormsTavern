@@ -1,0 +1,11 @@
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\bin\Debug\XamarinFormsTavern.dll
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\bin\Debug\XamarinFormsTavern.pdb
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\obj\Debug\MenuPage.xaml.g.cs
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\obj\Debug\XamarinFormsTavern.dll
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\obj\Debug\XamarinFormsTavern.pdb
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\obj\Debug\TavernPage.xaml.g.cs
+C:\Users\gabst_000\Documents\Visual Studio 2013\Projects\XamarinFormsTavern\XamarinFormsTavern\XamarinFormsTavern\obj\Debug\XamarinFormsTavern.csprojResolveAssemblyReference.cache
